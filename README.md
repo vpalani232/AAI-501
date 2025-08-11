@@ -1,11 +1,11 @@
- Gender Recognition from Audio
+### Gender Recognition from Audio
 
 This project trains machine learning and deep learning models to classify a speaker's gender from audio recordings.  
 It uses the **LibriSpeech ASR corpus** as the dataset and includes both **data preparation** and **model training** pipelines.
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 ```
 .
@@ -16,7 +16,7 @@ It uses the **LibriSpeech ASR corpus** as the dataset and includes both **data p
 
 ---
 
-## 📊 Dataset
+## Dataset
 
 - **Source:** [LibriSpeech ASR corpus](https://www.openslr.org/12)
 - **Subset Used:** `dev-clean` (can be replaced with other subsets)
@@ -26,7 +26,7 @@ It uses the **LibriSpeech ASR corpus** as the dataset and includes both **data p
 
 ---
 
-## ⚙️ Data Preparation
+## Data Preparation
 
 The `data_preparation.py` script:
 
@@ -51,7 +51,7 @@ Ensure that:
 
 ---
 
-## 🤖 Model Training & Evaluation
+## Model Training & Evaluation
 
 The `Gender_recognition_from_Audio_final.ipynb` notebook includes:
 
@@ -73,7 +73,7 @@ The `Gender_recognition_from_Audio_final.ipynb` notebook includes:
 
 ---
 
-## 🛠 Requirements
+## Requirements
 
 Install dependencies:
 ```bash
@@ -95,7 +95,7 @@ pydub
 
 ---
 
-## 🚀 Running the Project
+## Running the Project
 
 1. **Prepare Dataset:**
    ```bash
@@ -110,7 +110,7 @@ pydub
 
 ---
 
-## 📌 Notes & Limitations
+## Notes & Limitations
 
 - Dataset used is **clean and recorded in controlled environments**.  
   In real-world conditions (background noise, poor microphones, accents), performance may drop.
@@ -119,7 +119,7 @@ pydub
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the MIT License.
 
